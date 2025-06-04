@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Duolingo Profile",
+        "description": "Duolingo user ID",
+        "data": {
+          "user_id": "User ID"
+        }
+      },
+      "name": {
+        "title": "Name and Scan Interval",
+        "description": "name and scan interval",
+        "data": {
+          "name": "Name",
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}

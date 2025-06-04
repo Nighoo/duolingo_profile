@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+.venv/
+node_modules/
+package.json
+package-lock.json
+__py_cache__/
+*.py[cod]
