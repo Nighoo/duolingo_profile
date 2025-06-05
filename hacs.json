@@ -1,5 +1,4 @@
 {
-  "content": "integration",
   "filename": "custom_components/duolingo_profile/manifest.json",
   "hacs": "2.0.5",
   "homeassistant": "2025.4.4",
