@@ -23,6 +23,7 @@ class DuolingoEntity(CoordinatorEntity[DuolingoCoordinator]):
         self._attr_entity_registry_object_id = (
             f"{DOMAIN}_{self._slug_name}_{sensor_type}"
         )
+        self._attr_entity_id = f"{DOMAIN}_{self._slug_name}_{sensor_type}"
         self._attr_name = sensor_type.replace("_", " ").title()
         self._attr_device_info: DeviceInfo = {
             "identifiers": {(DOMAIN, coordinator.user_id)},
